@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    color: white;
+    background: #FFA737;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Objektiv Mk1;
+    font-style: normal;
+    font-weight: 500;
+}
+
+main{
+    background: url("../assets/images/Rectangle.png");
+    height: 50rem;
+}
+
+main nav{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    color: #ffffff;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+main header{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 10rem;
+}
+
+main header h1{
+    font-size:4rem;
+    text-align: center;
+}
+
+main header p {
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-bottom:3rem;
+    margin-top: -1rem;
+}
+
+main header button{
+    width: 30%;
+    margin: 0 auto;
+    background: #FFA737;
+    border-radius: 5px;
+}
+main header div .button{
+    padding-top: 1rem;
+}
+main header div img{
+}
+main header .header_main_paragraph{
+    top: 54px;
+    font-family: Objektiv Mk1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    opacity: 0.8;
+    margin-left: 5rem;
+}
+
+section .main{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+section .main .paragraph{
+    width: 496px;
+}
+section .main .paragraph h1{
+    font-family: Objektiv Mk1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 127%;
+}
+
+
+section .main .paragraph p{
+    font-family: Objektiv Mk1;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 127%;
+    color: rgba(0, 0, 0, 0.67);
+    opacity: 0.8;
+}
+section .main .paragraph button{
+    width: 30%;
+}
+section .image{
+    margin-top: 10rem;
+}
+section .next_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+section .next_container h1{
+    margin-left: 5rem;
+    font-family: Objektiv Mk1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    opacity: 0.8;
+}
+section .next_container .img_container{
+    margin: 0 auto;
+}
+section .next_bg_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+section .next_bg_container .next_header{
+    margin-left: 5rem;
+    font-family: Objektiv Mk1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    opacity: 0.8;
+}
+section .next_bg_container .image_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin: 0 auto;
+    width: 90%;
+}
+section .next_bg_container .image_container .div{
+    width: 22%;
+}
+section .next_bg_container .image_container .div img{
+    width: 100%;
+}
+section .next_bg_container .image_container .div .flex{
+    display: flex;
+}
+section .next_bg_container .image_container .div .flex .p{
+    font-size: 24px;
+    color: #000000;
+}
+section .next_bg_container .image_container .div p{
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.67);
+    opacity: 0.8;
+}
+section .next_bg_container .image_container .div .price{
+color: #000000;
+font-weight: 500;
+font-size: 24px;
+}
+section .bg_container_2 {
+    margin-top: 10rem;
+}
+section .bg_container_2 h1{
+    margin-left: 5rem;
+    font-family: Objektiv Mk1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    opacity: 0.8;
+}
+section .bg_container_2 .comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section .bg_container_2 .comments div{
+    text-align: center;
+    background: #FFFFFF;
+    border: 3px solid #FFA737;
+    box-sizing: border-box;
+    box-shadow: 0px 12px 24px rgba(255, 167, 55, 0.06);
+    border-radius: 20px;
+    width: 45%;
+}
+
+section .bg_container_2 .comments div p{
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.8;
+    line-height: 2rem;
+    margin: 2.3rem;
+}
+section .bg_container_3{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    justify-content: space-between;
+}
+section .bg_container_4 .union_bg{
+    position: absolute;
+    margin-top: 10rem;
+    left: 6rem;
+}
+section .bg_container_4 .union{
+    position: absolute;
+    margin-top: 20rem;
+    left: 25rem;
+}
+section .bg_container_4 .absolute_bg{
+    position: absolute;
+}
+section .bg_container_4 .absolute{
+    position: absolute;
+    margin-top: 10rem;
+    left: 17rem;
+}
+section .bg_container_4 .absolute_bg{
+    position: absolute;
+    margin-top: 11rem;
+    left: 20rem;
+}
+
+section .bg_container_4 .block{
+    position: absolute;
+    color: #ffffff;
+    background: #FFA737;
+    height: 28rem;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 20rem;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+section .bg_container_4 .block h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 107%;
+    text-align: center;
+    color: #FFFFFF;
+}
+section .bg_container_4 .block .bg_buttons{
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 150px;
+}
+section .bg_container_4 .block .bg_buttons .container_bg{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+section .bg_container_4 .block .bg_buttons .container_bg .book{
+    display: none;
+}
+section .bg_container_4 .block .bg_buttons .container_bg button{
+    width: 200%;
+}
+section .bg_container_4 .block .bg_buttons .bg_bgn_button{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #000000;
+    background: #ffffff;
+}
+section .bg_container_4 .block .bg_buttons .bg_bgn_buttons{
+    background: #FFA737;
+    border-radius: 5px;
+}
+
+section .bg_container_5{
+    margin-top: 57rem;
+    text-align: center;
+}
+
+section .bg_container_5 h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 107%;
+    text-align: center;
+    color: #000000;
+}
+section .bg_container_5 p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 127%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+    opacity: 0.8;
+}
+section .bg_container_5 .input input{
+    background: #FAFAFA;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px 80px;
+    border: 1px solid #FAFAFA;
+}
+section .bg_container_5 .input input::placeholder{
+    opacity: 0.3;
+}
+section .bg_container_5 .input  button{
+    height: 59px;
+    width: 10%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -0.3rem;
+
+}
+footer .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+footer .footer p{
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    section .image img{
+        width: 100%;
+    }
+    section .bg_container_3{
+        display: none;
+    }
+    section .next_container .img_container{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section .main{
+        flex-direction: column;
+    }
+    section .main .paragraph{
+        margin-top: 2rem;
+    }
+    section .next_container .img_container{
+        justify-content: space-between;
+    }
+    section .next_container .img_container img{
+        width: 30%;
+    }
+    section .bg_container_4 .block .bg_buttons .container_bg button {
+        width: 110%;
+    }    
+    section .bg_container_5 {
+        margin-left: 6rem;
+    }
+}
+@media screen and (max-width: 425px){
+    main nav .nav_header{
+        margin-top: -1rem;
+    }
+    main header{
+        width: 100%;
+    }
+    section .main{
+        width: 100%;
+    }
+    section .main img{
+        width: 100%;
+    }
+    section .main .paragraph p{
+        width: 80%;
+    }
+
+    section .next_bg_container .next_header {
+        margin-left: 3rem;
+    }
+    section .next_bg_container .next_header br{
+        display: none;
+    }
+    section .next_bg_container .image_container{
+        flex-direction: column;
+    }
+
+    section .next_bg_container .image_container .div {
+        width: 100%;
+    }
+
+    section .bg_container_2 .comments{
+        flex-direction: column;
+        width: 90%;
+    }
+    section .bg_container_2 .comments div{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+
+    section .bg_container_4 .union_bg{
+        display: none;
+    }
+    section .bg_container_4 .union{
+        display: none;
+    }
+    section .bg_container_4 .block {
+        margin-left: 1.5rem;
+        width: 90%;
+    }
+
+    section .bg_container_4 .block .bg_buttons .container_bg{
+        margin-left: 3rem;
+        margin-top: 3rem;
+    }
+
+    section .bg_container_4 .block .bg_buttons .container_bg .book{
+        display: block; 
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #000000;
+        background: #ffffff;
+    }
+
+    section .bg_container_4 .block .bg_buttons .bg_bgn_button{
+        display: none;
+    }
+    section .bg_container_4 .block .bg_buttons .bg_bgn_buttons{
+        display: none;
+    }
+    section .bg_container_5 {
+        margin-left: 2rem;
+    }
+    section .bg_container_5 h1{
+        text-align: left;
+    }
+    section .bg_container_5 p{
+        text-align: left;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+    section .bg_container_5 .input input{
+        margin-left: -3rem;
+    }
+
+    section .bg_container_5 .input button{
+        width: 100%;
+    }
+    footer div{
+        display: none;
+    }
+    footer p{
+        margin-left: -2rem;
+    }
+}
